@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<UIP version="7" >
+	<Project >
+		<ProjectSettings author="" company="" presentationWidth="1080" presentationHeight="480" presentationRotation="90" maintainAspect="False" preferKtx="True" flipCompressedTextures="False" >
+			<CustomColors count="16" >#ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff</CustomColors>
+		</ProjectSettings>
+		<Graph >
+			<Scene id="Scene_u58207" >
+				<Layer id="Layer_u62305" variants="" >
+					<Camera id="Camera_u65534" />
+					<Light id="Light_u32426" />
+					<Group id="JeepCompass_u22479" variants="" importid="__import__root__" >
+						<Light id="Light_u9636" name="Light" brightness="100000" castshadow="True" expfade="3000" importid="Light" lightdiffuse="1 1 1 1" lighttype="Point" linearfade="0" orientation="Right Handed" position="407.625 590.386 100.545" rotation="-132.466 72.7792 -169.256" rotationorder="XYZr" scale="1 1 1" />
+						<Model id="COMPASS.004_u15496" variants="" name="COMPASS.004" importid="COMPASS.004" orientation="Right Handed" position="1.05879e-20 1.86265e-07 -4.44088e-14" rotation="-180 -2.23118e-05 180" rotationorder="XYZr" scale="1.08603 1.08603 1.08603" sourcepath="../models/JeepCompass/meshes/COMPASS.004.mesh" >
+							<ReferencedMaterial id="00 - BODY_u8291" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - BODY" />
+						</Model>
+						<Model id="COMPASS.046_u61255" variants="" name="COMPASS.046" importid="COMPASS.046" orientation="Right Handed" position="1.05879e-20 1.86265e-07 -4.44088e-14" rotation="-180 -2.23118e-05 180" rotationorder="XYZr" scale="1.08603 1.08603 1.08603" sourcepath="../models/JeepCompass/meshes/COMPASS.046.mesh" >
+							<ReferencedMaterial id="00 - BODY_u54786" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - BODY_0001" />
+						</Model>
+						<Model id="DISC_u15434" variants="" name="DISC" importid="DISC" orientation="Right Handed" position="0 0 0" rotation="-90 0 0" rotationorder="XYZr" scale="0.973013 0.972953 0.972953" sourcepath="../models/JeepCompass/meshes/DISC.mesh" >
+							<ReferencedMaterial id="00 - CHROME_u46317" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - CHROME" />
+						</Model>
+						<Model id="FONT FRONT_u23696" variants="" name="FONT FRONT" importid="FONT FRONT" orientation="Right Handed" position="1.32349e-21 0 0" rotation="-3.8261e-06 1.35898e-11 -3.58034e-13" rotationorder="XYZr" scale="0.56309 0.591856 0.669141" sourcepath="../models/JeepCompass/meshes/FONT FRONT.mesh" >
+							<ReferencedMaterial id="00 - WHITE GLOSSY_u19079" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - WHITE GLOSSY" />
+						</Model>
+						<Model id="gum_28_001.002_u35667" variants="" name="gum_28_001.002" importid="gum_28_001.002" orientation="Right Handed" position="-8.07794e-26 -1.86265e-07 0" rotation="-180 -3.5825e-12 180" rotationorder="XYZr" scale="-0.0443484 -0.0443484 -0.0443484" sourcepath="../models/JeepCompass/meshes/gum_28_001.002.mesh" >
+							<ReferencedMaterial id="00 - TYRE_u35255" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - TYRE" />
+						</Model>
+						<Model id="HOLDER FRONT_u153" variants="" name="HOLDER FRONT" importid="HOLDER FRONT" orientation="Right Handed" position="0 0 0" rotation="-4.32571e-06 0 0" rotationorder="XYZr" scale="100 100 100" sourcepath="../models/JeepCompass/meshes/HOLDER FRONT.mesh" >
+							<ReferencedMaterial id="00 - PLATE HOLDER_u33980" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - PLATE HOLDER" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.000_u25477" variants="" name="JEEP COMPASS 2021.000" importid="JEEP COMPASS 2021.000" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.000.mesh" >
+							<ReferencedMaterial id="00 - RIMS_u47040" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - RIMS" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.001_u21704" variants="" name="JEEP COMPASS 2021.001" importid="JEEP COMPASS 2021.001" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.001.mesh" >
+							<ReferencedMaterial id="00 - TYRE_u48271" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - TYRE_0001" />
+						</Model>
+						<Model id="BackLight_u21316" variants="" name="BackLight" importid="BackLight" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/BackLight.mesh" >
+							<ReferencedMaterial id="00 - PLASTIC BLACK_u3235" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - PLASTIC BLACK" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.003_u52809" variants="" name="JEEP COMPASS 2021.003" importid="JEEP COMPASS 2021.003" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.003.mesh" >
+							<ReferencedMaterial id="00 - PLASTIC BLACK_u43236" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - PLASTIC BLACK_0001" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.004_u39543" variants="" name="JEEP COMPASS 2021.004" importid="JEEP COMPASS 2021.004" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.004.mesh" >
+							<ReferencedMaterial id="00 - PLASTIC BLACK_u26642" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - PLASTIC BLACK_0002" />
+						</Model>
+						<Model id="Mirror_SideRight_u8524" variants="" name="Mirror_SideRight" importid="Mirror_SideRight" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/Mirror_SideRight.mesh" >
+							<ReferencedMaterial id="00 - BODY_u18272" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - BODY_0002" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.006_u60367" variants="" name="JEEP COMPASS 2021.006" importid="JEEP COMPASS 2021.006" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.006.mesh" >
+							<ReferencedMaterial id="00 - RED GLOSSY_u2791" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - RED GLOSSY" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.007_u34269" variants="" name="JEEP COMPASS 2021.007" importid="JEEP COMPASS 2021.007" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.007.mesh" >
+							<ReferencedMaterial id="00 - CHROME_u28113" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - CHROME_0001" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.008_u22756" variants="" name="JEEP COMPASS 2021.008" importid="JEEP COMPASS 2021.008" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.008.mesh" >
+							<ReferencedMaterial id="00 - DARK SILVER GLOSSY_u3560" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - DARK SILVER GLOSSY" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.009_u61146" variants="" name="JEEP COMPASS 2021.009" importid="JEEP COMPASS 2021.009" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.009.mesh" >
+							<ReferencedMaterial id="00 - CHROME_u19926" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - CHROME_0002" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.010_u65127" variants="" name="JEEP COMPASS 2021.010" importid="JEEP COMPASS 2021.010" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.010.mesh" >
+							<ReferencedMaterial id="00 - RED GLOSSY_u9834" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - RED GLOSSY_0001" />
+						</Model>
+						<Model id="Indicator_u5275" variants="" name="Indicator" importid="Indicator" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/Indicator.mesh" >
+							<ReferencedMaterial id="00 - CHROME_u3063" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - CHROME_0003" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.012_u20759" variants="" name="JEEP COMPASS 2021.012" importid="JEEP COMPASS 2021.012" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.012.mesh" >
+							<ReferencedMaterial id="00 - PLASTIC BLACK_u51867" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - PLASTIC BLACK_0003" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.013_u50356" variants="" name="JEEP COMPASS 2021.013" importid="JEEP COMPASS 2021.013" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.013.mesh" >
+							<ReferencedMaterial id="00 - RED GLASS_u13985" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - RED GLASS" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.014_u30445" variants="" name="JEEP COMPASS 2021.014" importid="JEEP COMPASS 2021.014" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.014.mesh" >
+							<ReferencedMaterial id="00 - CHROME_u25915" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - CHROME_0004" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.015_u62103" variants="" name="JEEP COMPASS 2021.015" importid="JEEP COMPASS 2021.015" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.015.mesh" >
+							<ReferencedMaterial id="00 - RED GLOSSY_u59577" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - RED GLOSSY_0002" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.016_u14360" variants="" name="JEEP COMPASS 2021.016" importid="JEEP COMPASS 2021.016" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.016.mesh" >
+							<ReferencedMaterial id="00 - RED GLOSSY_u44886" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - RED GLOSSY_0003" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.017_u20295" variants="" name="JEEP COMPASS 2021.017" importid="JEEP COMPASS 2021.017" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.017.mesh" >
+							<ReferencedMaterial id="00 - PLASTIC BLACK_u39410" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - PLASTIC BLACK_0004" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.018_u27606" variants="" name="JEEP COMPASS 2021.018" importid="JEEP COMPASS 2021.018" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.018.mesh" >
+							<ReferencedMaterial id="00 - PLASTIC BLACK_u52029" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - PLASTIC BLACK_0005" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.020_u11618" variants="" name="JEEP COMPASS 2021.020" importid="JEEP COMPASS 2021.020" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.020.mesh" >
+							<ReferencedMaterial id="00 - CLEAR GLASS_u49661" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - CLEAR GLASS" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.022_u31623" variants="" name="JEEP COMPASS 2021.022" importid="JEEP COMPASS 2021.022" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.022.mesh" >
+							<ReferencedMaterial id="00 - CLEAR GLASS_u34748" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - CLEAR GLASS_0001" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.023_u8659" variants="" name="JEEP COMPASS 2021.023" importid="JEEP COMPASS 2021.023" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.023.mesh" >
+							<ReferencedMaterial id="00 - WINDOW_u15433" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - WINDOW" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.024_u34414" variants="" name="JEEP COMPASS 2021.024" importid="JEEP COMPASS 2021.024" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 -2.23118e-05 -5.00896e-06" rotationorder="XYZr" scale="-1.08541 -1.08541 -1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.024.mesh" >
+							<ReferencedMaterial id="00 - PLASTIC BLACK_u34594" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - PLASTIC BLACK_0006" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.025_u14695" variants="" name="JEEP COMPASS 2021.025" importid="JEEP COMPASS 2021.025" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.025.mesh" >
+							<ReferencedMaterial id="00 - CHROME_u13837" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - CHROME_0005" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.026_u55262" variants="" name="JEEP COMPASS 2021.026" importid="JEEP COMPASS 2021.026" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.026.mesh" >
+							<ReferencedMaterial id="00 - BODY_u34733" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - BODY_0003" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.027_u23296" variants="" name="JEEP COMPASS 2021.027" importid="JEEP COMPASS 2021.027" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.027.mesh" >
+							<ReferencedMaterial id="00 - BODY_u63627" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - BODY_0004" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.029_u42133" variants="" name="JEEP COMPASS 2021.029" importid="JEEP COMPASS 2021.029" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.029.mesh" >
+							<ReferencedMaterial id="00 - CHROME_u5836" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - CHROME_0006" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.030_u10464" variants="" name="JEEP COMPASS 2021.030" importid="JEEP COMPASS 2021.030" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.030.mesh" >
+							<ReferencedMaterial id="00 - CHROME_u14275" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - CHROME_0007" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.031_u21085" variants="" name="JEEP COMPASS 2021.031" importid="JEEP COMPASS 2021.031" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 -2.23118e-05 -5.00896e-06" rotationorder="XYZr" scale="-1.08541 -1.08541 -1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.031.mesh" >
+							<ReferencedMaterial id="00 - PLASTIC BLACK_u15859" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - PLASTIC BLACK_0007" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.032_u13879" variants="" name="JEEP COMPASS 2021.032" importid="JEEP COMPASS 2021.032" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.032.mesh" >
+							<ReferencedMaterial id="00 - CHROME_u52830" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - CHROME_0008" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.033_u10148" variants="" name="JEEP COMPASS 2021.033" importid="JEEP COMPASS 2021.033" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.033.mesh" >
+							<ReferencedMaterial id="00 - CHROME_u21230" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - CHROME_0009" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.034_u34156" variants="" name="JEEP COMPASS 2021.034" importid="JEEP COMPASS 2021.034" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.034.mesh" >
+							<ReferencedMaterial id="00 - BLACK GLOSSY_u48929" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - BLACK GLOSSY" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.035_u38734" variants="" name="JEEP COMPASS 2021.035" importid="JEEP COMPASS 2021.035" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.035.mesh" >
+							<ReferencedMaterial id="00 - BLACK GLOSSY_u63258" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - BLACK GLOSSY_0001" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.036_u17233" variants="" name="JEEP COMPASS 2021.036" importid="JEEP COMPASS 2021.036" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.036.mesh" >
+							<ReferencedMaterial id="00 - DARK GLASS_u56763" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - DARK GLASS" />
+						</Model>
+						<Model id="PLATE FRONT_u35781" variants="" name="PLATE FRONT" importid="PLATE FRONT" orientation="Right Handed" position="1.32349e-21 0 0" rotation="-3.8261e-06 1.35898e-11 -3.58034e-13" rotationorder="XYZr" scale="0.56309 0.591856 0.669141" sourcepath="../models/JeepCompass/meshes/PLATE FRONT.mesh" >
+							<ReferencedMaterial id="00 - BLACK GLOSSY_u10350" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - BLACK GLOSSY_0002" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.028_u42845" variants="" name="JEEP COMPASS 2021.028" importid="JEEP COMPASS 2021.028" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.028.mesh" >
+							<ReferencedMaterial id="00 - BODY_u11147" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - BODY_0005" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.037_u37171" variants="" name="JEEP COMPASS 2021.037" importid="JEEP COMPASS 2021.037" orientation="Right Handed" position="0 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.09794 1.09794 1.09794" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.037.mesh" >
+							<ReferencedMaterial id="00 - BODY_u16107" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - BODY_0006" />
+							<ReferencedMaterial id="00 - WINDOW_u20677" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - WINDOW_0001" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.038_u40425" variants="" name="JEEP COMPASS 2021.038" importid="JEEP COMPASS 2021.038" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.038.mesh" >
+							<ReferencedMaterial id="00 - BODY_u62285" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - BODY_0007" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.039_u32888" variants="" name="JEEP COMPASS 2021.039" importid="JEEP COMPASS 2021.039" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.039.mesh" >
+							<ReferencedMaterial id="00 - BODY_u25467" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - BODY_0008" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.040_u61050" variants="" name="JEEP COMPASS 2021.040" importid="JEEP COMPASS 2021.040" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.040.mesh" >
+							<ReferencedMaterial id="00 - BODY_u11258" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - BODY_0009" />
+						</Model>
+						<Model id="Mirror_SideLeft_u42080" variants="" name="Mirror_SideLeft" importid="Mirror_SideLeft" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/Mirror_SideLeft.mesh" >
+							<ReferencedMaterial id="00 - BODY_u29963" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - BODY_0010" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.042_u59729" variants="" name="JEEP COMPASS 2021.042" importid="JEEP COMPASS 2021.042" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.042.mesh" >
+							<ReferencedMaterial id="00 - BODY_u23104" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - BODY_0011" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.043_u15923" variants="" name="JEEP COMPASS 2021.043" importid="JEEP COMPASS 2021.043" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.043.mesh" >
+							<ReferencedMaterial id="00 - BODY_u4609" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - BODY_0012" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.044_u18949" variants="" name="JEEP COMPASS 2021.044" importid="JEEP COMPASS 2021.044" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.044.mesh" >
+							<ReferencedMaterial id="00 - BODY_u45345" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - BODY_0013" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.045_u31216" variants="" name="JEEP COMPASS 2021.045" importid="JEEP COMPASS 2021.045" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.045.mesh" >
+							<ReferencedMaterial id="00 - BODY_u7798" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - BODY_0014" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.046_u19811" variants="" name="JEEP COMPASS 2021.046" importid="JEEP COMPASS 2021.046" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.046.mesh" >
+							<ReferencedMaterial id="00 - BODY_u3781" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - BODY_0015" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.047_u32483" variants="" name="JEEP COMPASS 2021.047" importid="JEEP COMPASS 2021.047" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.047.mesh" >
+							<ReferencedMaterial id="00 - BODY_u27867" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - BODY_0016" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.048_u29148" variants="" name="JEEP COMPASS 2021.048" importid="JEEP COMPASS 2021.048" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.048.mesh" >
+							<ReferencedMaterial id="00 - BODY_u51799" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - BODY_0017" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.049_u23818" variants="" name="JEEP COMPASS 2021.049" importid="JEEP COMPASS 2021.049" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.049.mesh" >
+							<ReferencedMaterial id="00 - BODY_u22920" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - BODY_0018" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.050_u46569" variants="" name="JEEP COMPASS 2021.050" importid="JEEP COMPASS 2021.050" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.050.mesh" >
+							<ReferencedMaterial id="00 - BODY_u64505" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - BODY_0019" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.051_u26996" variants="" name="JEEP COMPASS 2021.051" importid="JEEP COMPASS 2021.051" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.051.mesh" >
+							<ReferencedMaterial id="00 - BODY_u31773" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - BODY_0020" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.052_u22815" variants="" name="JEEP COMPASS 2021.052" importid="JEEP COMPASS 2021.052" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.052.mesh" >
+							<ReferencedMaterial id="00 - BODY_u49162" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - BODY_0021" />
+						</Model>
+						<Model id="JEEP COMPASS 2021.053_u28031" variants="" name="JEEP COMPASS 2021.053" importid="JEEP COMPASS 2021.053" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.053.mesh" >
+							<ReferencedMaterial id="00 - BODY_u18607" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - BODY_0022" />
+						</Model>
+						<Model id="gum_28_001.003_u57581" variants="" name="gum_28_001.003" importid="gum_28_001.003" orientation="Right Handed" position="-8.07794e-26 -1.86265e-07 0" rotation="-180 -3.5825e-12 180" rotationorder="XYZr" scale="-0.0443484 -0.0443484 -0.0443484" >
+							<Model id="Tyre_Leftback_u25618" variants="" name="Tyre_Leftback" importid="Tyre_Leftback" orientation="Right Handed" position="-8.07794e-26 2 0" rotation="-180 -3.5825e-12 180" rotationorder="XYZr" scale="-0.0442346 -0.0442346 -0.0442346" sourcepath="../models/JeepCompass/meshes/Tyre_Leftback.mesh" >
+								<ReferencedMaterial id="00 - TYRE_u25978" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - TYRE_0002" />
+								<ReferencedMaterial id="00 - DARK SILVER GLOSSY_u18781" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - DARK SILVER GLOSSY_0001" />
+								<ReferencedMaterial id="00 - CHROME_u37922" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - CHROME_0010" />
+							</Model>
+							<Model id="Bonet_u47168" variants="" name="Bonet" importid="Bonet" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/Bonet.mesh" >
+								<ReferencedMaterial id="00 - BODY_u34049" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - BODY_0023" />
+							</Model>
+							<Model id="COMPASS.001_u64549" variants="" name="COMPASS.001" importid="COMPASS.001" orientation="Right Handed" position="1.05879e-20 1.86265e-07 -4.44088e-14" rotation="-180 -2.23118e-05 180" rotationorder="XYZr" scale="1.08603 1.08603 1.08603" sourcepath="../models/JeepCompass/meshes/COMPASS.001.mesh" >
+								<ReferencedMaterial id="00 - BODY_u25687" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - BODY_0024" />
+							</Model>
+							<Model id="JEEP COMPASS 2021.058_u48534" variants="" name="JEEP COMPASS 2021.058" importid="JEEP COMPASS 2021.058" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.058.mesh" >
+								<ReferencedMaterial id="00 - WINDOW_u38491" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - WINDOW_0002" />
+							</Model>
+							<Model id="JEEP COMPASS 2021.059_u21881" variants="" name="JEEP COMPASS 2021.059" importid="JEEP COMPASS 2021.059" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.059.mesh" >
+								<ReferencedMaterial id="00 - WINDOW_u5979" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - WINDOW_0003" />
+							</Model>
+							<Model id="JEEP COMPASS 2021.060_u55727" variants="" name="JEEP COMPASS 2021.060" importid="JEEP COMPASS 2021.060" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.060.mesh" >
+								<ReferencedMaterial id="00 - WINDOW_u53650" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - WINDOW_0004" />
+							</Model>
+							<Model id="JEEP COMPASS 2021.061_u7981" variants="" name="JEEP COMPASS 2021.061" importid="JEEP COMPASS 2021.061" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.061.mesh" >
+								<ReferencedMaterial id="00 - WINDOW_u30782" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - WINDOW_0005" />
+							</Model>
+							<Model id="JEEP COMPASS 2021.062_u46779" variants="" name="JEEP COMPASS 2021.062" importid="JEEP COMPASS 2021.062" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.062.mesh" >
+								<ReferencedMaterial id="00 - WINDOW_u61836" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - WINDOW_0006" />
+							</Model>
+							<Model id="JEEP COMPASS 2021.063_u33466" variants="" name="JEEP COMPASS 2021.063" importid="JEEP COMPASS 2021.063" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.063.mesh" >
+								<ReferencedMaterial id="00 - WINDOW_u55220" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - WINDOW_0007" />
+							</Model>
+							<Model id="JEEP COMPASS 2021.064_u23186" variants="" name="JEEP COMPASS 2021.064" importid="JEEP COMPASS 2021.064" orientation="Right Handed" position="-2.11758e-20 1.86265e-07 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08541 1.08541 1.08541" sourcepath="../models/JeepCompass/meshes/JEEP COMPASS 2021.064.mesh" >
+								<ReferencedMaterial id="00 - WINDOW_u16728" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - WINDOW_0008" />
+							</Model>
+							<Model id="Tyre_RightBack_u11072" variants="" name="Tyre_RightBack" importid="Tyre_RightBack" orientation="Right Handed" position="-2.11758e-20 -1 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.07567 1.07567 1.07567" sourcepath="../models/JeepCompass/meshes/Tyre_RightBack.mesh" >
+								<ReferencedMaterial id="00 - DARK SILVER GLOSSY_u20796" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - DARK SILVER GLOSSY_0003" />
+								<ReferencedMaterial id="00 - TYRE_u33858" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - TYRE_0003" />
+								<ReferencedMaterial id="00 - CHROME_u32041" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - CHROME_0011" />
+							</Model>
+							<Model id="Tyre_RightFront_u7454" variants="" name="Tyre_RightFront" importid="Tyre_RightFront" orientation="Right Handed" position="-2.11634e-20 2 -4.43829e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.08229 1.08229 1.08229" sourcepath="../models/JeepCompass/meshes/Tyre_RightFront.mesh" >
+								<ReferencedMaterial id="00 - CHROME_u2564" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - CHROME_0012" />
+								<ReferencedMaterial id="00 - TYRE_u21644" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - TYRE_0004" />
+								<ReferencedMaterial id="00 - DARK SILVER GLOSSY_u47206" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - DARK SILVER GLOSSY_0005" />
+							</Model>
+							<Model id="Tyre_LeftFront_u7485" variants="" name="Tyre_LeftFront" importid="Tyre_LeftFront" orientation="Right Handed" position="-2.11758e-20 -2 -4.44089e-14" rotation="-180 2.23118e-05 -180" rotationorder="XYZr" scale="1.10091 1.10091 1.10091" sourcepath="../models/JeepCompass/meshes/Tyre_LeftFront.mesh" >
+								<ReferencedMaterial id="00 - DARK SILVER GLOSSY_u8224" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - DARK SILVER GLOSSY_0007" />
+								<ReferencedMaterial id="00 - TYRE_u50917" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - TYRE_0005" />
+								<ReferencedMaterial id="00 - CHROME_u23135" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - CHROME_0014" />
+							</Model>
+							<Model id="CALIPER.001_u10710" variants="" name="CALIPER.001" importid="CALIPER.001" orientation="Right Handed" position="0 0 0" rotation="-90 0 0" rotationorder="XYZr" scale="0.973013 0.972953 0.972953" sourcepath="../models/JeepCompass/meshes/CALIPER.001.mesh" >
+								<ReferencedMaterial id="00 - RIMS GOLD_u15873" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - RIMS GOLD" />
+							</Model>
+							<Model id="CALIPER.002_u50076" variants="" name="CALIPER.002" importid="CALIPER.002" orientation="Right Handed" position="0 0 0" rotation="-90 0 0" rotationorder="XYZr" scale="0.973013 0.972953 0.972953" sourcepath="../models/JeepCompass/meshes/CALIPER.002.mesh" >
+								<ReferencedMaterial id="00 - RIMS GOLD_u17189" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - RIMS GOLD_0001" />
+							</Model>
+							<Model id="CALIPER.003_u59747" variants="" name="CALIPER.003" importid="CALIPER.003" orientation="Right Handed" position="0 0 0" rotation="-90 0 0" rotationorder="XYZr" scale="0.973013 0.972953 0.972953" sourcepath="../models/JeepCompass/meshes/CALIPER.003.mesh" >
+								<ReferencedMaterial id="00 - RIMS GOLD_u41445" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - RIMS GOLD_0002" />
+							</Model>
+							<Model id="CALIPER.004_u11448" variants="" name="CALIPER.004" importid="CALIPER.004" orientation="Right Handed" position="0 0 0" rotation="-90 0 0" rotationorder="XYZr" scale="0.973013 0.972953 0.972953" sourcepath="../models/JeepCompass/meshes/CALIPER.004.mesh" >
+								<ReferencedMaterial id="00 - RIMS GOLD_u7872" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - RIMS GOLD_0003" />
+							</Model>
+							<Model id="COMPASS.002_u7119" variants="" name="COMPASS.002" importid="COMPASS.002" orientation="Right Handed" position="1.05879e-20 1 -4.44088e-14" rotation="-180 -2.23118e-05 180" rotationorder="XYZr" scale="1.08603 1.08603 1.08603" sourcepath="../models/JeepCompass/meshes/COMPASS.002.mesh" >
+								<ReferencedMaterial id="00 - BODY_u10870" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - BODY_0025" />
+							</Model>
+						</Model>
+					</Group>
+				</Layer>
+				<Material id="__Container_u32593" >
+					<Material id="materials/00 - BODY_u13759" name="00 - BODY" blendmode="Normal" diffuse="0.380056 0.286974 0.107718 1" emissivepower="0" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - BODY" opacity="100" specularamount="0" specularroughness="64" />
+					<Material id="materials/00 - CHROME_u7601" name="00 - CHROME" blendmode="Normal" diffuse="0.8 0.8 0.8 1" emissivepower="0" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - CHROME" opacity="100" specularamount="0" specularroughness="81" />
+					<Material id="materials/00 - WHITE GLOSSY_u19735" name="00 - WHITE GLOSSY" blendmode="Normal" diffuse="0.8 0.8 0.8 1" emissivepower="0" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - WHITE GLOSSY" opacity="100" specularamount="0" specularroughness="81" />
+					<Material id="materials/00 - TYRE_u56834" name="00 - TYRE" blendmode="Normal" diffuse="0.010023 0.010023 0.010023 1" emissivepower="0" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - TYRE" opacity="100" specularamount="0" specularroughness="12.25" />
+					<Material id="materials/00 - PLATE HOLDER_u32160" name="00 - PLATE HOLDER" blendmode="Normal" diffuse="0.029099 0.029099 0.029099 1" emissivepower="0" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - PLATE HOLDER" opacity="100" specularamount="0" specularroughness="64" />
+					<Material id="materials/00 - RIMS_u46927" name="00 - RIMS" blendmode="Normal" diffuse="0.438543 0.438543 0.438543 1" emissivepower="0" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - RIMS" opacity="100" specularamount="0" specularroughness="30.25" />
+					<Material id="materials/00 - PLASTIC BLACK_u49174" name="00 - PLASTIC BLACK" blendmode="Normal" diffuse="0.010023 0.010023 0.010023 1" emissivepower="0" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - PLASTIC BLACK" opacity="100" specularamount="0" specularroughness="36" />
+					<Material id="materials/00 - RED GLOSSY_u57750" name="00 - RED GLOSSY" blendmode="Normal" diffuse="0.380056 0 0 1" emissivepower="0" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - RED GLOSSY" opacity="100" specularamount="0" specularroughness="100" />
+					<Material id="materials/00 - DARK SILVER GLOSSY_u52194" name="00 - DARK SILVER GLOSSY" blendmode="Normal" diffuse="0.110687 0.110687 0.110687 1" emissivepower="0" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - DARK SILVER GLOSSY" opacity="100" specularamount="0" specularroughness="49" />
+					<Material id="materials/00 - RED GLASS_u32331" name="00 - RED GLASS" blendmode="Normal" diffuse="0.8 0.0241987 0.0306279 1" emissivepower="0" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - RED GLASS" opacity="100" specularamount="0" specularroughness="100" />
+					<Material id="materials/00 - CLEAR GLASS_u15290" name="00 - CLEAR GLASS" blendmode="Normal" diffuse="0 0 0 1" emissivepower="0" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - CLEAR GLASS" opacity="50" specularamount="0" specularroughness="100" />
+					<Material id="materials/00 - WINDOW_u54771" name="00 - WINDOW" blendmode="Normal" diffuse="0 0 0 1" emissivepower="0" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - WINDOW" opacity="70" specularamount="0" specularroughness="100" />
+					<Material id="materials/00 - BLACK GLOSSY_u54304" name="00 - BLACK GLOSSY" blendmode="Normal" diffuse="0 0 0 1" emissivepower="0" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - BLACK GLOSSY" opacity="100" specularamount="0" specularroughness="90.25" />
+					<Material id="materials/00 - DARK GLASS_u6575" name="00 - DARK GLASS" blendmode="Normal" diffuse="0 0 0 1" emissivepower="0" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - DARK GLASS" opacity="90" specularamount="0" specularroughness="100" />
+					<Material id="materials/00 - RIMS GOLD_u631" name="00 - RIMS GOLD" blendmode="Normal" diffuse="0.0800095 0.0606011 0.0359391 1" emissivepower="0" importfile="../models/JeepCompass/JeepCompass.import" importid="00 - RIMS GOLD" opacity="100" specularamount="0" specularroughness="49" />
+				</Material>
+			</Scene>
+		</Graph>
+		<Logic >
+			<State name="Master Slide" component="#Scene_u58207" >
+				<Add ref="#Layer_u62305" />
+				<Add ref="#Camera_u65534" />
+				<Add ref="#Light_u32426" />
+				<Add ref="#__Container_u32593" name="__Container" />
+				<Add ref="#materials/00 - BODY_u13759" name="materials/00 - BODY" />
+				<Add ref="#materials/00 - CHROME_u7601" name="materials/00 - CHROME" />
+				<Add ref="#materials/00 - WHITE GLOSSY_u19735" name="materials/00 - WHITE GLOSSY" />
+				<Add ref="#materials/00 - TYRE_u56834" name="materials/00 - TYRE" />
+				<Add ref="#materials/00 - PLATE HOLDER_u32160" name="materials/00 - PLATE HOLDER" />
+				<Add ref="#materials/00 - RIMS_u46927" name="materials/00 - RIMS" />
+				<Add ref="#materials/00 - PLASTIC BLACK_u49174" name="materials/00 - PLASTIC BLACK" />
+				<Add ref="#materials/00 - RED GLOSSY_u57750" name="materials/00 - RED GLOSSY" />
+				<Add ref="#materials/00 - DARK SILVER GLOSSY_u52194" name="materials/00 - DARK SILVER GLOSSY" />
+				<Add ref="#materials/00 - RED GLASS_u32331" name="materials/00 - RED GLASS" />
+				<Add ref="#materials/00 - CLEAR GLASS_u15290" name="materials/00 - CLEAR GLASS" />
+				<Add ref="#materials/00 - WINDOW_u54771" name="materials/00 - WINDOW" />
+				<Add ref="#materials/00 - BLACK GLOSSY_u54304" name="materials/00 - BLACK GLOSSY" />
+				<Add ref="#materials/00 - DARK GLASS_u6575" name="materials/00 - DARK GLASS" />
+				<Add ref="#materials/00 - RIMS GOLD_u631" name="materials/00 - RIMS GOLD" />
+				<State id="Scene-Slide1_u47228" name="Slide1" >
+					<Add ref="#JeepCompass_u22479" name="JeepCompass" importfile="../models/JeepCompass/JeepCompass.import" sourcepath="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#Light_u9636" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#COMPASS.004_u15496" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - BODY_u8291" name="00 - BODY" referencedmaterial="#materials/00 - BODY_u13759" sourcepath="../materials/00 - BODY.materialdef" />
+					<Add ref="#COMPASS.046_u61255" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - BODY_u54786" name="00 - BODY" referencedmaterial="#materials/00 - BODY_u13759" sourcepath="../materials/00 - BODY.materialdef" />
+					<Add ref="#DISC_u15434" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - CHROME_u46317" name="00 - CHROME" referencedmaterial="#materials/00 - CHROME_u7601" sourcepath="../materials/00 - CHROME.materialdef" />
+					<Add ref="#FONT FRONT_u23696" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - WHITE GLOSSY_u19079" name="00 - WHITE GLOSSY" referencedmaterial="#materials/00 - WHITE GLOSSY_u19735" sourcepath="../materials/00 - WHITE GLOSSY.materialdef" />
+					<Add ref="#gum_28_001.002_u35667" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - TYRE_u35255" name="00 - TYRE" referencedmaterial="#materials/00 - TYRE_u56834" sourcepath="../materials/00 - TYRE.materialdef" />
+					<Add ref="#HOLDER FRONT_u153" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - PLATE HOLDER_u33980" name="00 - PLATE HOLDER" referencedmaterial="#materials/00 - PLATE HOLDER_u32160" sourcepath="../materials/00 - PLATE HOLDER.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.000_u25477" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - RIMS_u47040" name="00 - RIMS" referencedmaterial="#materials/00 - RIMS_u46927" sourcepath="../materials/00 - RIMS.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.001_u21704" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - TYRE_u48271" name="00 - TYRE" referencedmaterial="#materials/00 - TYRE_u56834" sourcepath="../materials/00 - TYRE.materialdef" />
+					<Add ref="#BackLight_u21316" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - PLASTIC BLACK_u3235" name="00 - PLASTIC BLACK" referencedmaterial="#materials/00 - PLASTIC BLACK_u49174" sourcepath="../materials/00 - PLASTIC BLACK.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.003_u52809" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - PLASTIC BLACK_u43236" name="00 - PLASTIC BLACK" referencedmaterial="#materials/00 - PLASTIC BLACK_u49174" sourcepath="../materials/00 - PLASTIC BLACK.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.004_u39543" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - PLASTIC BLACK_u26642" name="00 - PLASTIC BLACK" referencedmaterial="#materials/00 - PLASTIC BLACK_u49174" sourcepath="../materials/00 - PLASTIC BLACK.materialdef" />
+					<Add ref="#Mirror_SideRight_u8524" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - BODY_u18272" name="00 - BODY" referencedmaterial="#materials/00 - BODY_u13759" sourcepath="../materials/00 - BODY.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.006_u60367" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - RED GLOSSY_u2791" name="00 - RED GLOSSY" referencedmaterial="#materials/00 - RED GLOSSY_u57750" sourcepath="../materials/00 - RED GLOSSY.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.007_u34269" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - CHROME_u28113" name="00 - CHROME" referencedmaterial="#materials/00 - CHROME_u7601" sourcepath="../materials/00 - CHROME.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.008_u22756" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - DARK SILVER GLOSSY_u3560" name="00 - DARK SILVER GLOSSY" referencedmaterial="#materials/00 - DARK SILVER GLOSSY_u52194" sourcepath="../materials/00 - DARK SILVER GLOSSY.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.009_u61146" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - CHROME_u19926" name="00 - CHROME" referencedmaterial="#materials/00 - CHROME_u7601" sourcepath="../materials/00 - CHROME.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.010_u65127" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - RED GLOSSY_u9834" name="00 - RED GLOSSY" referencedmaterial="#materials/00 - RED GLOSSY_u57750" sourcepath="../materials/00 - RED GLOSSY.materialdef" />
+					<Add ref="#Indicator_u5275" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - CHROME_u3063" name="00 - CHROME" referencedmaterial="#materials/00 - CHROME_u7601" sourcepath="../materials/00 - CHROME.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.012_u20759" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - PLASTIC BLACK_u51867" name="00 - PLASTIC BLACK" referencedmaterial="#materials/00 - PLASTIC BLACK_u49174" sourcepath="../materials/00 - PLASTIC BLACK.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.013_u50356" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - RED GLASS_u13985" name="00 - RED GLASS" referencedmaterial="#materials/00 - RED GLASS_u32331" sourcepath="../materials/00 - RED GLASS.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.014_u30445" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - CHROME_u25915" name="00 - CHROME" referencedmaterial="#materials/00 - CHROME_u7601" sourcepath="../materials/00 - CHROME.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.015_u62103" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - RED GLOSSY_u59577" name="00 - RED GLOSSY" referencedmaterial="#materials/00 - RED GLOSSY_u57750" sourcepath="../materials/00 - RED GLOSSY.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.016_u14360" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - RED GLOSSY_u44886" name="00 - RED GLOSSY" referencedmaterial="#materials/00 - RED GLOSSY_u57750" sourcepath="../materials/00 - RED GLOSSY.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.017_u20295" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - PLASTIC BLACK_u39410" name="00 - PLASTIC BLACK" referencedmaterial="#materials/00 - PLASTIC BLACK_u49174" sourcepath="../materials/00 - PLASTIC BLACK.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.018_u27606" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - PLASTIC BLACK_u52029" name="00 - PLASTIC BLACK" referencedmaterial="#materials/00 - PLASTIC BLACK_u49174" sourcepath="../materials/00 - PLASTIC BLACK.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.020_u11618" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - CLEAR GLASS_u49661" name="00 - CLEAR GLASS" referencedmaterial="#materials/00 - CLEAR GLASS_u15290" sourcepath="../materials/00 - CLEAR GLASS.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.022_u31623" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - CLEAR GLASS_u34748" name="00 - CLEAR GLASS" referencedmaterial="#materials/00 - CLEAR GLASS_u15290" sourcepath="../materials/00 - CLEAR GLASS.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.023_u8659" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - WINDOW_u15433" name="00 - WINDOW" referencedmaterial="#materials/00 - WINDOW_u54771" sourcepath="../materials/00 - WINDOW.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.024_u34414" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - PLASTIC BLACK_u34594" name="00 - PLASTIC BLACK" referencedmaterial="#materials/00 - PLASTIC BLACK_u49174" sourcepath="../materials/00 - PLASTIC BLACK.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.025_u14695" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - CHROME_u13837" name="00 - CHROME" referencedmaterial="#materials/00 - CHROME_u7601" sourcepath="../materials/00 - CHROME.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.026_u55262" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - BODY_u34733" name="00 - BODY" referencedmaterial="#materials/00 - BODY_u13759" sourcepath="../materials/00 - BODY.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.027_u23296" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - BODY_u63627" name="00 - BODY" referencedmaterial="#materials/00 - BODY_u13759" sourcepath="../materials/00 - BODY.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.029_u42133" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - CHROME_u5836" name="00 - CHROME" referencedmaterial="#materials/00 - CHROME_u7601" sourcepath="../materials/00 - CHROME.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.030_u10464" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - CHROME_u14275" name="00 - CHROME" referencedmaterial="#materials/00 - CHROME_u7601" sourcepath="../materials/00 - CHROME.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.031_u21085" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - PLASTIC BLACK_u15859" name="00 - PLASTIC BLACK" referencedmaterial="#materials/00 - PLASTIC BLACK_u49174" sourcepath="../materials/00 - PLASTIC BLACK.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.032_u13879" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - CHROME_u52830" name="00 - CHROME" referencedmaterial="#materials/00 - CHROME_u7601" sourcepath="../materials/00 - CHROME.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.033_u10148" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - CHROME_u21230" name="00 - CHROME" referencedmaterial="#materials/00 - CHROME_u7601" sourcepath="../materials/00 - CHROME.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.034_u34156" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - BLACK GLOSSY_u48929" name="00 - BLACK GLOSSY" referencedmaterial="#materials/00 - BLACK GLOSSY_u54304" sourcepath="../materials/00 - BLACK GLOSSY.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.035_u38734" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - BLACK GLOSSY_u63258" name="00 - BLACK GLOSSY" referencedmaterial="#materials/00 - BLACK GLOSSY_u54304" sourcepath="../materials/00 - BLACK GLOSSY.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.036_u17233" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - DARK GLASS_u56763" name="00 - DARK GLASS" referencedmaterial="#materials/00 - DARK GLASS_u6575" sourcepath="../materials/00 - DARK GLASS.materialdef" />
+					<Add ref="#PLATE FRONT_u35781" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - BLACK GLOSSY_u10350" name="00 - BLACK GLOSSY" referencedmaterial="#materials/00 - BLACK GLOSSY_u54304" sourcepath="../materials/00 - BLACK GLOSSY.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.028_u42845" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - BODY_u11147" name="00 - BODY" referencedmaterial="#materials/00 - BODY_u13759" sourcepath="../materials/00 - BODY.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.037_u37171" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - BODY_u16107" name="00 - BODY" referencedmaterial="#materials/00 - BODY_u13759" sourcepath="../materials/00 - BODY.materialdef" />
+					<Add ref="#00 - WINDOW_u20677" name="00 - WINDOW" referencedmaterial="#materials/00 - WINDOW_u54771" sourcepath="../materials/00 - WINDOW.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.038_u40425" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - BODY_u62285" name="00 - BODY" referencedmaterial="#materials/00 - BODY_u13759" sourcepath="../materials/00 - BODY.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.039_u32888" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - BODY_u25467" name="00 - BODY" referencedmaterial="#materials/00 - BODY_u13759" sourcepath="../materials/00 - BODY.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.040_u61050" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - BODY_u11258" name="00 - BODY" referencedmaterial="#materials/00 - BODY_u13759" sourcepath="../materials/00 - BODY.materialdef" />
+					<Add ref="#Mirror_SideLeft_u42080" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - BODY_u29963" name="00 - BODY" referencedmaterial="#materials/00 - BODY_u13759" sourcepath="../materials/00 - BODY.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.042_u59729" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - BODY_u23104" name="00 - BODY" referencedmaterial="#materials/00 - BODY_u13759" sourcepath="../materials/00 - BODY.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.043_u15923" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - BODY_u4609" name="00 - BODY" referencedmaterial="#materials/00 - BODY_u13759" sourcepath="../materials/00 - BODY.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.044_u18949" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - BODY_u45345" name="00 - BODY" referencedmaterial="#materials/00 - BODY_u13759" sourcepath="../materials/00 - BODY.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.045_u31216" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - BODY_u7798" name="00 - BODY" referencedmaterial="#materials/00 - BODY_u13759" sourcepath="../materials/00 - BODY.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.046_u19811" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - BODY_u3781" name="00 - BODY" referencedmaterial="#materials/00 - BODY_u13759" sourcepath="../materials/00 - BODY.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.047_u32483" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - BODY_u27867" name="00 - BODY" referencedmaterial="#materials/00 - BODY_u13759" sourcepath="../materials/00 - BODY.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.048_u29148" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - BODY_u51799" name="00 - BODY" referencedmaterial="#materials/00 - BODY_u13759" sourcepath="../materials/00 - BODY.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.049_u23818" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - BODY_u22920" name="00 - BODY" referencedmaterial="#materials/00 - BODY_u13759" sourcepath="../materials/00 - BODY.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.050_u46569" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - BODY_u64505" name="00 - BODY" referencedmaterial="#materials/00 - BODY_u13759" sourcepath="../materials/00 - BODY.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.051_u26996" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - BODY_u31773" name="00 - BODY" referencedmaterial="#materials/00 - BODY_u13759" sourcepath="../materials/00 - BODY.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.052_u22815" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - BODY_u49162" name="00 - BODY" referencedmaterial="#materials/00 - BODY_u13759" sourcepath="../materials/00 - BODY.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.053_u28031" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - BODY_u18607" name="00 - BODY" referencedmaterial="#materials/00 - BODY_u13759" sourcepath="../materials/00 - BODY.materialdef" />
+					<Add ref="#gum_28_001.003_u57581" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#Tyre_Leftback_u25618" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - TYRE_u25978" name="00 - TYRE" referencedmaterial="#materials/00 - TYRE_u56834" sourcepath="../materials/00 - TYRE.materialdef" />
+					<Add ref="#00 - DARK SILVER GLOSSY_u18781" name="00 - DARK SILVER GLOSSY" referencedmaterial="#materials/00 - DARK SILVER GLOSSY_u52194" sourcepath="../materials/00 - DARK SILVER GLOSSY.materialdef" />
+					<Add ref="#00 - CHROME_u37922" name="00 - CHROME" referencedmaterial="#materials/00 - CHROME_u7601" sourcepath="../materials/00 - CHROME.materialdef" />
+					<Add ref="#Bonet_u47168" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - BODY_u34049" name="00 - BODY" referencedmaterial="#materials/00 - BODY_u13759" sourcepath="../materials/00 - BODY.materialdef" />
+					<Add ref="#COMPASS.001_u64549" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - BODY_u25687" name="00 - BODY" referencedmaterial="#materials/00 - BODY_u13759" sourcepath="../materials/00 - BODY.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.058_u48534" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - WINDOW_u38491" name="00 - WINDOW" referencedmaterial="#materials/00 - WINDOW_u54771" sourcepath="../materials/00 - WINDOW.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.059_u21881" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - WINDOW_u5979" name="00 - WINDOW" referencedmaterial="#materials/00 - WINDOW_u54771" sourcepath="../materials/00 - WINDOW.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.060_u55727" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - WINDOW_u53650" name="00 - WINDOW" referencedmaterial="#materials/00 - WINDOW_u54771" sourcepath="../materials/00 - WINDOW.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.061_u7981" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - WINDOW_u30782" name="00 - WINDOW" referencedmaterial="#materials/00 - WINDOW_u54771" sourcepath="../materials/00 - WINDOW.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.062_u46779" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - WINDOW_u61836" name="00 - WINDOW" referencedmaterial="#materials/00 - WINDOW_u54771" sourcepath="../materials/00 - WINDOW.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.063_u33466" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - WINDOW_u55220" name="00 - WINDOW" referencedmaterial="#materials/00 - WINDOW_u54771" sourcepath="../materials/00 - WINDOW.materialdef" />
+					<Add ref="#JEEP COMPASS 2021.064_u23186" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - WINDOW_u16728" name="00 - WINDOW" referencedmaterial="#materials/00 - WINDOW_u54771" sourcepath="../materials/00 - WINDOW.materialdef" />
+					<Add ref="#Tyre_RightBack_u11072" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - DARK SILVER GLOSSY_u20796" name="00 - DARK SILVER GLOSSY" referencedmaterial="#materials/00 - DARK SILVER GLOSSY_u52194" sourcepath="../materials/00 - DARK SILVER GLOSSY.materialdef" />
+					<Add ref="#00 - TYRE_u33858" name="00 - TYRE" referencedmaterial="#materials/00 - TYRE_u56834" sourcepath="../materials/00 - TYRE.materialdef" />
+					<Add ref="#00 - CHROME_u32041" name="00 - CHROME" referencedmaterial="#materials/00 - CHROME_u7601" sourcepath="../materials/00 - CHROME.materialdef" />
+					<Add ref="#Tyre_RightFront_u7454" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - CHROME_u2564" name="00 - CHROME" referencedmaterial="#materials/00 - CHROME_u7601" sourcepath="../materials/00 - CHROME.materialdef" />
+					<Add ref="#00 - TYRE_u21644" name="00 - TYRE" referencedmaterial="#materials/00 - TYRE_u56834" sourcepath="../materials/00 - TYRE.materialdef" />
+					<Add ref="#00 - DARK SILVER GLOSSY_u47206" name="00 - DARK SILVER GLOSSY" referencedmaterial="#materials/00 - DARK SILVER GLOSSY_u52194" sourcepath="../materials/00 - DARK SILVER GLOSSY.materialdef" />
+					<Add ref="#Tyre_LeftFront_u7485" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - DARK SILVER GLOSSY_u8224" name="00 - DARK SILVER GLOSSY" referencedmaterial="#materials/00 - DARK SILVER GLOSSY_u52194" sourcepath="../materials/00 - DARK SILVER GLOSSY.materialdef" />
+					<Add ref="#00 - TYRE_u50917" name="00 - TYRE" referencedmaterial="#materials/00 - TYRE_u56834" sourcepath="../materials/00 - TYRE.materialdef" />
+					<Add ref="#00 - CHROME_u23135" name="00 - CHROME" referencedmaterial="#materials/00 - CHROME_u7601" sourcepath="../materials/00 - CHROME.materialdef" />
+					<Add ref="#CALIPER.001_u10710" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - RIMS GOLD_u15873" name="00 - RIMS GOLD" referencedmaterial="#materials/00 - RIMS GOLD_u631" sourcepath="../materials/00 - RIMS GOLD.materialdef" />
+					<Add ref="#CALIPER.002_u50076" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - RIMS GOLD_u17189" name="00 - RIMS GOLD" referencedmaterial="#materials/00 - RIMS GOLD_u631" sourcepath="../materials/00 - RIMS GOLD.materialdef" />
+					<Add ref="#CALIPER.003_u59747" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - RIMS GOLD_u41445" name="00 - RIMS GOLD" referencedmaterial="#materials/00 - RIMS GOLD_u631" sourcepath="../materials/00 - RIMS GOLD.materialdef" />
+					<Add ref="#CALIPER.004_u11448" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - RIMS GOLD_u7872" name="00 - RIMS GOLD" referencedmaterial="#materials/00 - RIMS GOLD_u631" sourcepath="../materials/00 - RIMS GOLD.materialdef" />
+					<Add ref="#COMPASS.002_u7119" importfile="../models/JeepCompass/JeepCompass.import" />
+					<Add ref="#00 - BODY_u10870" name="00 - BODY" referencedmaterial="#materials/00 - BODY_u13759" sourcepath="../materials/00 - BODY.materialdef" />
+				</State>
+			</State>
+		</Logic>
+	</Project>
+</UIP>
